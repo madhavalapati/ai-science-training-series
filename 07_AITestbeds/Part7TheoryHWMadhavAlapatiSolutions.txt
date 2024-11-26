@@ -1,0 +1,15 @@
+What are the key architectural features that make these systems suitable for AI workloads?
+
+AI accelerators like Ceribas and Grog are designed to handle its workload by optimizing for each specific task of a requirement. This can be matrix multiplication or tensor application. This would require large on-chip memories, parallel processing, and this would allow them to process large datasets and specialize in hardware in order to maximize tasks for machine learning models.
+
+Identify the primary differences between these AI accelerator systems in terms of their architecture and programming models.
+
+Each AI accelerator has a unique feature. For example, the RDU focuses on large memory and good data processing, while the GraphCourse Intelligent, or the IPU, works on communication phases and distinct computation. The grog's tensor streaming, the TSP, looks for low latency tasks and it makes it for real AI applications. And this shows how different models are architected and also how this changes their programming models.
+
+Based on hands-on sessions, describe a typical workflow for refactoring an AI model to run on one of ALCF's AI testbeds (e.g., SambaNova or Cerebras). What tools or software stacks are typically used in this process?
+
+In order to refactor an AI model, it involves changing it for specific features of an accelerator. This means using a custom version of popular learning frameworks like PyTorch. And in order to do this, you have to adjust the hyperparameters, port the model, and optimize its performance. Testing the model in order to ensure accuracy. And on top of this, these models and specialized APIs are used to maximize the compatibility for the task and make sure that it is efficient in the way it runs and performs.
+
+Give an example of a project that would benefit from AI accelerators and why?
+
+An example of a project that would benefit from AI accelerators would be training in natural language processing models. And this would benefit because it requires processing very large amounts of text and performing lots of computation in order to analyze languages and the patterns that come with it. And because it's an accelerator, it can handle these tasks much faster and this will reduce the training time and it will improve accuracy and performance from this increased computation time and processing speed.
